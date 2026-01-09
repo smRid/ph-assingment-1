@@ -243,3 +243,71 @@ h3 {
 }
 
 /* -------------Card end------------- */
+
+
+/* solution start */
+
+#solution {
+    padding: 120px 0;
+    background: #ffff;
+    margin-top: -150px;
+    position: relative;
+    z-index: 2;
+}
+
+.solution-flex {
+    display: flex;
+    align-items: center;
+}
+
+.solution-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 60px;
+}
+
+.solution-label {
+    text-transform: uppercase;
+    color: #30B868;
+    text-align: left;
+}
+
+.solution-title {
+    text-align: left;
+    margin: 16px 0;
+}
+
+.solution-desc {
+    text-align: left;
+    max-width: 500px;
+}
+
+
+.text-list-wrappar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 16px;
+}
+
+
+.text-list {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.check-circle {
+    color: #30B868;
+}
+
+.list-paragraph {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+
+/* solution end */
